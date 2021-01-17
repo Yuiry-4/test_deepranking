@@ -79,5 +79,5 @@ def foo( w_oath, x1, x2 ):
 
     distance = sum([(embedding1[idx] - embedding2[idx])**2 for idx in range(len(embedding1))])**(0.5)
 
-    print ([x1,x2,distance])
+    print ('| ', x1,' | ',x2,' | ',distance,' |')
 
